@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: gold;
+    height: 100vh;
+    width: 100vw;
+}
+ol{
+    position: relative;
+    top: 50px;
+}
+.nav{
+    padding-top: 80px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+}
+.child{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    transform: rotate(20deg);
+    /* transition: width 5s, height 5s, transform 4s; */
+    animation: child 6s linear infinite;
+}
+/* .child:hover {
+    width: 100px;
+    height: 100px;
+    transform: rotate(-15deg);
+} */
+@keyframes child{
+    0%{
+        transform: skew(-25deg);
+    }
+    50%{
+        transform: skew(30deg);
+    }
+    100%{
+        transform: skew(-25deg);
+    }
+}
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.box{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    transform: rotate(50deg);
+    /* transition: width 5s, height 5s, transform 3s; */
+    animation: box 7s linear infinite;
+}
+/* .box:hover {
+    width: 100px;
+    height: 100px;
+    transform: rotate(-5deg);
+} */
+@keyframes box{
+    0%{
+        transform: scaleY(-15deg);
+    }
+    100%{
+        transform: skew(20deg);
+    }
+    /* 100%{
+        transform: scaleY(-20deg);
+    } */
+}
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid white;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.eye{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    transition: width 2s, height 2s, transform 2s;
+    /* animation: eye 5s linear infinite; */
+}
+.eye:hover {
+    transform: rotate(360deg);
+}
+/* @keyframes eye{
+    100%{
+        transform: scaleY(360deg);
+    }
+} */
+.come{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.hey{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.hey1{
+    background-color: aquamarine;
+}
+.hey1:hover {
+    /* transform: rotate(360deg); */
+    height: 150px;
+}
+.hey2{
+    background-color: red;
+}
+.hey2:hover{
+    width: 150px;
+}
+.hey3{
+    background-color: goldenrod;
+}
+.hey3:hover {
+    transform: rotate(90deg);
+}
+h1{
+    text-align: center;
+}
+
+/* handson52 */
+
+body{
+    background: gold;
+    height: 100vh;
+    width: 100vw;
+}
+.mails{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.mail{
+    background-color: rgb(13, 252, 13);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    transition: width 2s, height 2s, transform 2s;
+    transition-delay: 1s;
+}
+.mail1:hover{
+    width: 300px;
+}
+.mail2:hover{
+    width: 300px;
+    height: 300px;
+}
+.mail3:hover{
+    width: 300px;
+}
+.mail4:hover{
+    width: 300px;
+}
+.mail5:hover{
+    width: 300px;
+}
+.mail6:hover{
+    width: 300px;
+}
+.mail7:hover{
+    width: 300px;
+}
+
